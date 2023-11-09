@@ -1,0 +1,56 @@
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder
+$ git init
+Initialized empty Git repository in C:/Users/wesle/OneDrive/Desktop/New folder/.git/
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git add "java1.txt"
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git commit -m "first commit"
+[master (root-commit) bd0a693] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 java1.txt
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git add "java1.txt"
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git commit -m "second commit"
+[master 0cea6c2] second commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git add "java1.txt"
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git commit -m "third commit"
+[master a7ac56a] third commit
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git log
+commit a7ac56aef49041fb88e8d485b07b8d8b83124427 (HEAD -> master)
+Author: wesley <wkatena1@stu.vistula.edu.pl>
+Date:   Thu Nov 9 09:46:42 2023 +0100
+
+    third commit
+
+commit 0cea6c2b5c45914e147430f35e8af696c20b34e7
+Author: wesley <wkatena1@stu.vistula.edu.pl>
+Date:   Thu Nov 9 09:45:06 2023 +0100
+
+    second commit
+
+commit bd0a693c99d06d5929ae15bb347badb2dedea2e9
+Author: wesley <wkatena1@stu.vistula.edu.pl>
+Date:   Thu Nov 9 09:43:42 2023 +0100
+
+    first commit
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$ git checkout
+
+wesle@LAPTOP-6QVT2PO1 MINGW64 ~/OneDrive/Desktop/New folder (master)
+$
+
